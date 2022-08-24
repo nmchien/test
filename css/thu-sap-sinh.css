@@ -213,12 +213,12 @@ transform:translate(-50%,-50%);
         color: #798992;
         font-weight: 900;
     }
-    .mail:focus .cover:before{
+    .mail:hover .cover:before{
         transform: rotateX(180deg);
         transition: all 0.1s ease;
         z-index: -1;
     }
-    .mail:forcus .letter{
+    .mail:hover .letter{
         top: -80px;
         z-index: 9;
         transition: all 1s 1s ease;
